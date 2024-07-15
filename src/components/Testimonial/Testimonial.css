@@ -1,0 +1,22 @@
+.slider-container {
+  display: flex;
+  background: linear-gradient(
+    71deg,
+    rgba(83, 93, 170, 1) 24%,
+    rgba(152, 152, 203, 1)
+  );
+  border-radius: 50px;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+}
+
+.slider-left {
+  display: flex;
+  background-color: #8686C1;
+}

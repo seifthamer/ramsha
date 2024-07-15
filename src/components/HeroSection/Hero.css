@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Rubik:wght@500&display=swap');
+
+.hero_container {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 85vh;
+  align-items: center;
+  background: rgb(149, 155, 197);
+  background: linear-gradient(71deg, rgba(149, 155, 197, 1) 24%, rgba(206, 206, 230, 1) 100%);
+  border-bottom-left-radius: 400px;
+}
+
+.hero_text {
+  color: white;
+  margin: 60px;
+  font-size: 30px;
+  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.hero_text h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end);
+}
+
+.hero_img {
+  margin: 60px;
+}
+
+@media (max-width: 768px) {
+  .hero_container {
+    flex-direction: column;
+    height: 100;
+    padding: 90px;
+    border-bottom-left-radius: 0;
+  }
+
+  .hero_text {
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 1px;
+    font-size: 18px;
+  }
+
+  .hero_img {
+    margin:50px;
+  }
+}

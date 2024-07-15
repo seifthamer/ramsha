@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Lato:wght@300&family=Lobster&family=Oswald:wght@500&family=Overpass:wght@400;700&family=Rubik:wght@500&family=Ubuntu:ital,wght@1,300&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(
+    71deg,
+    rgba(149, 155, 197, 1) 24%,
+    rgba(206, 206, 230, 1) 100%
+  );
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav_links li {
+  margin-right: 20px;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-right: 5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav_links li a:hover {
+  color: #333;
+}
+
+.cta {
+  text-decoration: none;
+}
+
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #555;
+}
+
+.mobile-menu-icon {
+  border: none;
+  background: none;
+  font-size: 20px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+  .nav_links {
+    display: none;
+  }
+  .nav-button{
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Overpass:wght@400;700&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Oswald:wght@500&family=Overpass:wght@400;700&family=Rubik:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Lato:wght@300&family=Lobster&family=Oswald:wght@500&family=Overpass:wght@400;700&family=Rubik:wght@500&display=swap');
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  color: #2b378b;
+  font-family: 'Lobster', cursive;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.contact-container {
+  display: flex;
+  background: linear-gradient(
+    71deg,
+    rgba(83, 93, 170, 1) 24%,
+    rgba(152, 152, 203, 1)
+  );
+  border-radius: 50px;
+  height: 40rem;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.left-container {
+  width: 100%;
+}
+
+.contact-title {
+  margin: 10px 0px 10px 100px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 80px;
+}
+
+.contact-booking {
+  color: #1b288b;
+  font-size: 30px;
+  margin: 80px 0 20px 100px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.booking-description {
+  color: white;
+  font-size: 20px;
+  margin: 5px 0 20px 100px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.right-container {
+  background-color: white;
+  height: 35rem;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.input-title1 {
+  color: #8686c1;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Belanosima", sans-serif;
+  margin-top: 20px
+}
+
+.input-title2 {
+  color: #8686c1;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: "Belanosima", sans-serif;
+}
+
+input {
+  width: 90%;
+  margin: 10px 30px;
+  height: 50px;
+  padding: 7px;
+  border-radius: 20px;
+  border-color: #8686c1;
+}
+
+label {
+  font-family: "Belanosima", sans-serif;
+  margin-left: 40px;
+}
+
+.btn-contact {
+  background-color: #2b378b;
+  color: white;
+  margin-top: 2rem;
+  width: 50%;
+  height: 50px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-family: "Belanosima", sans-serif;
+  font-size: 1.5rem;
+}
